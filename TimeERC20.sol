@@ -391,7 +391,7 @@ contract TimeERC20Token is ERC20Permit, VaultOwned {
 
     using LowGasSafeMath for uint256;
 
-    constructor() ERC20("Time", "TIME", 9) {
+    constructor() ERC20("Freecity", "FRC", 9) {
     }
 
     function mint(address account_, uint256 amount_) external onlyVault() {
